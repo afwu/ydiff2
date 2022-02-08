@@ -62,6 +62,9 @@ func ydiff2()  {
 				fmt.Println(fmt.Sprintf("%d\t:%s",idx,file1_data[idx]))
 			}
 		}
+		for idx:=min_len;idx<len(file1_data);idx++{
+				fmt.Println(fmt.Sprintf("%d\t:%s",idx,file1_data[idx]))
+		}
 	}
 }
 
